@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "181969452428",
+    "project_id": "mor-yim",
+    "firebase_url": " https://mor-yim-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "storage_bucket": "mor-yim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181969452428:android:9167b4bc8bc3faa6e9eaa9",
+        "android_client_info": {
+          "package_name": "com.example.authentification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181969452428-it0h4cpoekglqdnb6oniqcvi5809ujs9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.authentification",
+            "certificate_hash": "f2197b244374acfbeadca70a0c3d49864588dc82"
+          }
+        },
+        {
+          "client_id": "181969452428-vt8l5t040d50phqc8jql4hbrrdlrcpq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4S31AyTheVxk9UCzFwJPmWeSQwrMRsKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181969452428-vt8l5t040d50phqc8jql4hbrrdlrcpq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
