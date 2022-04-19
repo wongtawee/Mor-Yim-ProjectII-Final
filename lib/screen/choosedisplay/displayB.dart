@@ -10,7 +10,14 @@ class _DisplayBState extends State<DisplayB> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Book an Appointment")),
+      appBar: AppBar(
+        title: Text("รายละเอียดการจอง"),
+        backgroundColor: Color(0xFF7369FF),
+        automaticallyImplyLeading: true,
+        actions: [],
+        centerTitle: true,
+        elevation: 4,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: StreamBuilder(

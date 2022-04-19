@@ -59,7 +59,12 @@ class MyAppointmentScreen extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('หน้าแรก'),
+          title: Text("Welcome"),
+          backgroundColor: Color(0xFF7369FF),
+          automaticallyImplyLeading: true,
+          actions: [],
+          centerTitle: true,
+          elevation: 4,
         ),
         body: ListView(
           children: [

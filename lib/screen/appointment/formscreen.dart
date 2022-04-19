@@ -122,8 +122,8 @@ class _FormScreenState extends State<FormScreen> {
                                 border:
                                     Border.all(color: Colors.grey, width: 1.0)),
                             child: TextFormField(
-                              validator: RequiredValidator(
-                                  errorText: "กรุณาป้อนชื่อด้วยครับ ^^"),
+                              validator:
+                                  RequiredValidator(errorText: "กรุณาป้อนชื่อ"),
                               onSaved: (String fname) {
                                 myStudent.fname = fname;
                               },
@@ -145,8 +145,7 @@ class _FormScreenState extends State<FormScreen> {
                               validator: MultiValidator([
                                 EmailValidator(
                                     errorText: "รูปแบบอีเมลไม่ถูกต้อง"),
-                                RequiredValidator(
-                                    errorText: "กรุณาป้อนอีเมลด้วยครับ ^^")
+                                RequiredValidator(errorText: "กรุณาป้อนอีเมลล์")
                               ]),
                               onSaved: (String email) {
                                 myStudent.email = email;
@@ -202,7 +201,7 @@ class _FormScreenState extends State<FormScreen> {
                                     Border.all(color: Colors.grey, width: 1.0)),
                             child: TextFormField(
                               validator: RequiredValidator(
-                                  errorText: "กรุณาป้อนนามสกุลด้วยครับ ^^"),
+                                  errorText: "กรุณาป้อนนามสกุล"),
                               onSaved: (String time) {
                                 myStudent.time = time;
                               },

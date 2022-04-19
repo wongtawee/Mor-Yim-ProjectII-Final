@@ -24,7 +24,7 @@ class _DocaState extends State<Doca> {
   //เตรียม firebase
   final Future<FirebaseApp> firebase = Firebase.initializeApp();
   CollectionReference _appointmentCollection =
-      FirebaseFirestore.instance.collection('DoctorB');
+      FirebaseFirestore.instance.collection('DoctorA');
 
   List<DropdownMenuItem<String>> listDrop = [];
   String selected;
@@ -32,11 +32,11 @@ class _DocaState extends State<Doca> {
     listDrop = [];
     listDrop.add(new DropdownMenuItem(
       child: new Text('แผนกทั่วไป'),
-      value: 'Tooth filling',
+      value: 'General',
     ));
     listDrop.add(new DropdownMenuItem(
       child: new Text('แผนกอายุรกรรม'),
-      value: 'change tire',
+      value: 'Internal Medicine',
     ));
   }
 
@@ -59,7 +59,12 @@ class _DocaState extends State<Doca> {
           if (snapshot.connectionState == ConnectionState.done) {
             return Scaffold(
               appBar: AppBar(
-                title: Text("MorYim"),
+                title: Text("จอง"),
+                backgroundColor: Color(0xFF7369FF),
+                automaticallyImplyLeading: true,
+                actions: [],
+                centerTitle: true,
+                elevation: 4,
               ),
               body: Container(
                 padding: EdgeInsets.all(20),

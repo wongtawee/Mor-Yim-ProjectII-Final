@@ -28,7 +28,6 @@ class _ChoosedoctorState extends State<Choosedoctor> {
       appBar: AppBar(
         title: Text("จอง"),
         backgroundColor: Color(0xFF7369FF),
-        automaticallyImplyLeading: true,
         actions: [],
         centerTitle: true,
         elevation: 4,

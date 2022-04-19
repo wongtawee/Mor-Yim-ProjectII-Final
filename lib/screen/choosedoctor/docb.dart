@@ -59,7 +59,12 @@ class _DocbState extends State<Docb> {
           if (snapshot.connectionState == ConnectionState.done) {
             return Scaffold(
               appBar: AppBar(
-                title: Text("MorYim"),
+                title: Text("จอง"),
+                backgroundColor: Color(0xFF7369FF),
+                automaticallyImplyLeading: true,
+                actions: [],
+                centerTitle: true,
+                elevation: 4,
               ),
               body: Container(
                 padding: EdgeInsets.all(20),
